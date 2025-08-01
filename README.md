@@ -1,9 +1,10 @@
+## Path for Automation Framework ##
 QA-DASHBOARD/
 │
-├── .editorconfig                      ← Editor formatting rules (optional)
-├── .vscode/                           ← VS Code IDE settings
+├── .editorconfig                      
+├── .vscode/                          
 │
-├── pom.xml                            ← Maven build & dependency config
+├── pom.xml                            
 │
 ├── src/
 │   ├── main/
@@ -11,23 +12,22 @@ QA-DASHBOARD/
 │   │       └── com/
 │   │           └── janitriinnovations/
 │   │               ├── pages/
-│   │               │   ├── App.java               ← Optional core app logic
-│   │               │   ├── DashboardPage.java     ← POM class for dashboard
-│   │               │   └── LoginPage.java         ← POM class for login page
+│   │               │   ├── App.java              
+│   │               │   ├── DashboardPage.java    
+│   │               │   └── LoginPage.java        
 │   │
 │   └── test/
 │       └── java/
 │           └── com/
 │               └── janitriinnovations/
 │                   ├── bases/
-│                   │   └── BaseTest.java          ← WebDriver init/cleanup
+│                   │   └── BaseTest.java         
 │                   │
 │                   └── tests/
-│                       ├── LoginTest.java         ← Login functionality tests
-│                       └── NotificationTest.java  ← Notification feature tests
+│                       ├── LoginTest.java         
+│                       └── NotificationTest.java  
+├── resources/                         
 │
-├── resources/                         ← Optional: configs, data files, logs
+├── target/                            
 │
-├── target/                            ← Maven output (compiled classes, reports)
-│
-└── testng.xml                         ← ✅ TestNG suite config (at the bottom now)
+└── testng.xml                         
