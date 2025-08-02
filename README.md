@@ -4,7 +4,8 @@ QA-DASHBOARD/
 ├── .editorconfig                      
 ├── .vscode/                          
 │
-├── pom.xml                            
+├── pom.xml 
+├── testng.xml
 │
 ├── src/
 │   ├── main/
